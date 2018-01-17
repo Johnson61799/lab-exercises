@@ -9,7 +9,7 @@ my.vector <- c(my.num, initials)
 vector.sum <- sum(my.vector)
 
 # Describe why this doesn't work: 
-# 
+# Unable to find sum of vector containing a string and a number. 
 
 install.packages("stringr")
 
@@ -23,7 +23,7 @@ print(str_length(my.line))
 said.the.famous <- paste(my.line, " - ", initial)
 
 # Describe why this doesn't work: 
-# 
+# The code asks for "initial" when the variable is "initials"
 
 
 ## Part 2 - Vector and function practice
